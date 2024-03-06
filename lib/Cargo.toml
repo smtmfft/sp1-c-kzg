@@ -1,0 +1,9 @@
+[package]
+version = "0.1.0"
+name = "kzg_utils"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+sha2 = "0.10.8"
+c-kzg = {git = "https://github.com/smtmfft/c-kzg-4844", branch = "risc0/remove-file-io", default-features = false }

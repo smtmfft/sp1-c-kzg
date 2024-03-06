@@ -1,0 +1,10 @@
+[workspace]
+[package]
+version = "0.1.0"
+name = "fibonacci-program"
+edition = "2021"
+
+[dependencies]
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", default-features = false}
+# c-kzg = {path = "/home/ubuntu/reference/ethereum/c-kzg-4844/bindings/rust", default-features = false}
+kzg_utils = {path="../lib"}
