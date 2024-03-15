@@ -6,5 +6,5 @@ edition = "2021"
 
 [dependencies]
 sp1-core = { git = "https://github.com/succinctlabs/sp1.git" }
-c-kzg = {path = "/home/ubuntu/reference/ethereum/c-kzg-4844/bindings/rust"}
+c-kzg = {git = "https://github.com/smtmfft/c-kzg-4844", branch = "risc0/remove-file-io", default-features = false }
 kzg_utils = {path="../lib"}

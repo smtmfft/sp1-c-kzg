@@ -192,13 +192,13 @@ dependencies = [
 [[package]]
 name = "c-kzg"
 version = "0.1.0"
+source = "git+https://github.com/smtmfft/c-kzg-4844?branch=risc0/remove-file-io#ba99c8d4ec4d5f9217d111ff889865de7a8c404f"
 dependencies = [
  "blst",
  "cc",
  "glob",
  "hex",
  "libc",
- "serde",
 ]
 
 [[package]]
@@ -716,6 +716,7 @@ version = "0.1.0"
 dependencies = [
  "c-kzg",
  "hex",
+ "sha2",
 ]
 
 [[package]]
